@@ -1,0 +1,469 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+*{margin: 0;padding: 0;outline: 0;}
+
+body{
+	font-family: none;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+	background:url('images/spiration dark.png') repeat fixed 0 0 #fff;
+}
+
+.templete{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear{
+	overflow: hidden;
+}
+
+.registerTextbox{
+	border: 1px solid #cfc5b6;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 300px;
+}
+input[type="submit"]{
+	background: #b7801c none repeat scroll 0 0;
+	border: 1px solid #e6af4b;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 1px 10px;
+}
+textarea{
+	height: 110px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 300px;
+	border: 1px solid #cfc5b6;
+}
+input[type="submit"]:hover{
+	background: #fef4e5;
+	color: #000;
+}
+.headersection{
+	background-color:green;
+	color: #fff;
+}
+
+.logo{width: 430px;float: left;}
+
+.logo img{float: left;margin-right: 15px;padding-bottom: 0px;padding-left: 20px;padding-top: 10px;width: 110px;}
+
+.logo h2{font-size: 32px;padding-bottom: 11px;padding-top: 30px;color: #fff;text-shadow: 2px 2px 0px #666;margin-top:14px;}
+
+.logo p{padding-bottom: 0px;}
+
+.social{width: 255px;float: right;padding-top: 16px;padding-bottom: 13px;}
+
+.social img{width: 60px;}
+
+.navsection{
+	background-color: green;
+	
+}
+
+.navsection ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navsection ul li{
+	display: block;
+	float: left;
+}
+
+.navsection ul li a{
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #444;
+	border: 1px solid #c48d29;
+}
+
+.navsection ul li a:hover,#active{background: #fef4e5;color: #333;}
+
+.navsection ul li ul li a
+{
+    display:block;
+}
+   
+    .slidersection {
+        box-shadow: 0px 8px 10px -2px #555;
+        margin-bottom: 12px;
+    }
+
+.contentsection{
+	background: #ffffff;
+}
+
+.maincontent{
+	background: #fef4e5 none repeat scroll 0 0;
+	float:left;
+	padding: 8px 20px;
+	margin: 0px 15px 15px 0px;
+	border: 1px solid #b7801c;
+	width: 628px;
+}
+.about{
+	
+}
+.about img{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #b7801c;
+	float:left;
+	margin-right: 10px;
+	padding: 5px;
+	width: 300px;
+	height: 190px;
+}
+.about p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.samepost{}
+.samepost h2,.about h2,.abouth2{
+	margin-bottom: 10px;
+	padding: 10px;
+	border-bottom: 2px solid #e0d6c7;
+	font-size: 25px;
+	color: #ac7511;
+}
+.samepost p{
+	font-size: 16px;
+	line-height: 23px;
+	text-align: justify;
+}
+.samepost img{
+	background: green none repeat scroll 0 0;
+	border: 1px solid #9b999a;
+	float:left;
+	margin-right: 10px;
+	padding: 5px;
+	width: 200px;
+}
+
+.readmore{
+	float: right;
+	margin-top: 10px;
+}
+.readmore a{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #b7801c;
+	border-radius: 3px;
+	color: #b7801c;
+	display: block;
+	font-size: 17px;
+	padding: 4px 8px;
+	text-decoration: none;
+}
+
+.readmore a:hover{color:green;background-color: bisque;}
+
+.sidebar{
+	width: 253px;
+	background: #fef4e5 none repeat scroll 0 0;
+	float:right;
+	margin-top: 0px;
+	margin-bottom: 90px;
+	padding: 10px;
+	border: 1px solid #b7801c;
+}
+
+.samesidebar{
+	margin-bottom: 10px;
+}
+
+.samesidebar ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.noticeShowTitle {
+    border-bottom: 1px dashed #ae841f;
+    font-size: 16px;
+    padding: 5px 8px 5px 0px;
+}
+
+.samesidebar ul li{
+	border-bottom: 1px dashed #e9c05c;
+	font-size: 16px;
+	padding: 5px 8px 5px 0px;
+	
+}
+
+.samesidebar ul li:last-child{
+	border-bottom: 0px dashed #e9c05c;
+}
+
+.samesidebar ul li a{
+	text-decoration: none;
+	color: #814a00;
+}
+
+.samesidebar ul li a:hover{
+	color: #df5c25;
+}
+
+
+.samesidebar h2{
+	background-color: green;
+	padding: 10px;
+	color: #333;
+	margin-bottom: 8px;
+	border-bottom: 2px solid #b7801c;
+}
+
+.samesidebar p{
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.footersection{
+	height: 90px;
+	background-color: green;
+	text-align: center;
+}
+
+.footermenu{
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.footermenu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+.footermenu ul li{
+	display: inline-block;
+}
+.footermenu ul li a{
+	color: #e6af4b;
+	font-size: 18px;
+	margin-right: 5px;
+}
+.footersection p{
+	
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition : 0.3s;
+}
+ .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ .container{
+     padding : 2px 16px;
+ }
+
+
+
+.sidenav {
+    
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+    /* Style the sidenav links and the dropdown button */
+.samesidebar a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+        /* On mouse-over */
+        .sidenav a:hover, .dropdown-btn:hover {
+            color: #f1f1f1;
+        }
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    
+    padding-right: 8px;
+}
+.nav {
+    background-color: green;
+    box-shadow: 8px 8px 16px 2px rgba(0,0,0,0.8);
+}
+
+    .nav ul {
+        margin: 0px;
+        padding: 0;
+        list-style: none;
+    }
+
+        .nav ul li {
+            float: left;
+            text-align: center;
+            margin: 1px;
+        }
+            .nav ul li span {
+                color: #fff;
+                text-decoration: none;
+                background: green;
+                padding: 10px;
+                display: block;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                background: green;
+                padding: 10px;
+                display: block;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .nav ul li:hover {
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+            }
+
+            .nav ul li:last-child a {
+                border-right: none;
+            }
+
+            .nav ul li a:hover {
+                background: #fef4e5;
+                color: #000;
+            }
+            .nav ul li span:hover {
+                background: #fef4e5;
+                color: #000;
+            }
+
+            .nav ul li ul li {
+                float: none;
+                margin: 1px;
+            }
+
+            .nav ul li ul {
+                display: none;
+                position: absolute;
+                margin: 0;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+            }
+
+            .nav ul li:hover ul {
+                display: block;
+            }
+
+.sameside {
+    margin-bottom: 10px;
+}
+
+    .sameside ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+
+        .sameside ul li {
+            text-align: center;
+            padding: 5px 8px 5px 0px;
+        }
+
+.samesidebar ul li:last-child {
+    border-bottom: 0px dashed #e9c05c;
+}
+
+.sameside ul li a {
+    text-decoration: none;
+    color: #814a00;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background: #f7ecc8;
+}
+
+    .sameside ul li a:hover {
+        color: #fff;
+        background: #ac7511;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+.sameside ul li:hover ul {
+    display: block;
+}
+
+.sameside ul li ul {
+    display: none;
+    position: relative;
+    margin: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.acordion{
+    background-color:#eee;
+    color:#444;
+    cursor:pointer;
+    padding:18px;
+    width:100%;
+    border:none;
+    text-align:left;
+    outline:none;
+    font-size:15px;
+    transition:0.4s;
+}
+.noticeActive,.acordion:hover{
+    background-color:#ccc;
+}
+
+.panel{
+    padding:0 18px;
+    display:none;
+    background-color:white;
+    overflow:hidden;
+
+}
